@@ -1,0 +1,18 @@
+Problem:
+
+key points
+* coding competition between two teams
+* there is always one winner/loser per contest
+* there is never a tie
+* winner = 3 points, loser = 0 points
+* winner = team with has the most points
+* an array of pairs representing competing teams - competition
+* an array of ints containing the results - results
+* array[0] = home team, array[1] = away team
+* home team won = results = 1, away team won = results = 0
+* maps behave like dictionaries in python
+
+Plan:
+1. create a map that takes key/value pair: key=string, value=int
+2. setup solution by adding unique team names as keys and values to 0
+3. 
